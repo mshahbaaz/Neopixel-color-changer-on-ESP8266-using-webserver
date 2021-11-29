@@ -10,8 +10,8 @@
 Adafruit_NeoPixel pixels = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, PIXEL_TYPE);
 
 // Replace with your network credentials
-const char* ssid     = "Solace-Guest";
-const char* password = "Power2Guest";
+const char* ssid     = "Wifi SSID";
+const char* password = "Password";
 
 // Set web server port number to 80
 WiFiServer server(80);
